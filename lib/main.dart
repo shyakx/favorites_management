@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
 }
 
 class ProductListScreen extends StatelessWidget {
-  final List<String> products = List.generate(20, (index) => 'Product $index');
+  final List<String> products = List.generate(26, (index) => 'Product $index');
 
   @override
   Widget build(BuildContext context) {
