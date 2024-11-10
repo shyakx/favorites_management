@@ -1,4 +1,3 @@
-// lib/main.dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'favorites.dart';
@@ -15,6 +14,7 @@ class MyApp extends StatelessWidget {
       create: (context) => Favorites(),
       child: MaterialApp(
         title: 'Favorites Management App',
+        debugShowCheckedModeBanner: false, // Hides the debug banner
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
